@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="personal.css?= <?php echo time(); ?>">
+    <link rel="stylesheet" href="Services.css?= <?php echo time(); ?>">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap">
+
+</head>
+<body>
+        <div class="topbar">
+        <a class="links" href="home.php">Home</a>
+        <a class="links" href="products.php">Products</a>
+        <a class="links" href="about.php">About</a>
+        <a class="links" href="contact.php">Contact</a>
+        <a class="links" href="services.php">Services</a>
+        <div class="profilecontainer">
+            <button id="profilebuttontolog" class="profilemain" style="display: flex;">
+                <img class="profile" src="profilez.jpg">
+                <img class="downarrow" src="angle-small-down.png">
+            </button>
+        </div>
+        <div id="logoutbuttoncontainer" class="logoutcontainer" style="display: none;">
+            <a class="logoutmainindex" href="index.html">
+                <button class="logoutmain">
+                    <img src="user-logout.png" class="logoutmainicon">
+                    Log out
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div class="mainsignupcontainer">
+        <div class="mainsignupcontent">
+            <div class="mainsignupcontenttitle">Sign Up</div>
+            <div class="mainsignupcontentdescription">Fill up the contents below in order to make an account.</div>
+            <div class="labelsforinputs">Username</div>
+            <input type="username" class="inputdescription" placeholder="Username">
+            <div class="labelsforinputs">Email</div>
+            <input type="email" class="inputdescription" placeholder="Email">
+            <div class="labelsforinputs">Password</div>
+            <input type="password" class="inputdescription" placeholder="Password">
+            <div class="labelsforinputs">Confirm Password</div>
+            <input type="password" class="inputdescription" placeholder="Password">
+            <a href="index.html" class="linktolog">Already have an account?</a>
+            <a href="home.html" class="createaccountbutton" >Create Account</a>
+        </div>
+    </div>
+
+</body>
+</html>
